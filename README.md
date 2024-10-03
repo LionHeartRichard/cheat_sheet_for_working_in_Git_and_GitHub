@@ -58,5 +58,37 @@ git log
 ```
 ### показывает кто и когда комитил  
 ## Команды для работы с ветками
-git 
 ```
+git branch -m main 
+```
+### команда для именования ветки, в данном случае имя ветки будет "main"
+## Команды для сохранения состояния репозитория
+```
+git commit -m "first commit"
+```
+### команды сохраняет состояние репозитория, "комитит"
+```
+git push
+```
+### команда позволяет сохранить удаленный репозиторий (если есть привязка к платформе GitHub и настроены SSH-ключи), "пушит"
+## Команды для управления удаленным репозиторием
+```
+git remote add origin git@github.com:OWNER/REPOSITORY.git
+```
+### Добавление удаленного репозитория через SSH 
+```
+git remote add origin https://github.com/OWNER/REPOSITORY.git
+```
+### Добавление удаленного репозитория через https
+```
+git remote set-url origin https://github.com/OWNER/REPOSITORY.git
+```
+### Переключение удаленных URL-адресов с SSH на HTTPS
+```
+git remote set-url origin git@github.com:OWNER/REPOSITORY.git
+```
+### Переключение удаленных URL-адресов с HTTPS на SSH
+```
+git remote -v
+```
+### 
