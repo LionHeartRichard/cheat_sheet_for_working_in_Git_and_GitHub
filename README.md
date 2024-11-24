@@ -95,4 +95,13 @@ git remote set-url origin git@github.com:OWNER/REPOSITORY.git
 ```
 git remote -v
 ```
-### 
+###
+## HEAD
+### Это файл в папке .git, в котором записана ссылка (или ссылка на ссылку) на последний коммит.
+### Это синоним хеша последнего коммита — его можно передавать командам Git в качестве параметра. 
+###
+## Статусы Git:
+### untracked (англ. «неотслеживаемый»)
+### untracked + git add = staged
+### modified + git add = staged
+### staged + git commit = tracked
