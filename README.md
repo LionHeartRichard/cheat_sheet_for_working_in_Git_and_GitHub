@@ -159,6 +159,10 @@ git push -f
 
 # Команды для управления удаленным репозиторием
 ```
+git push -u origin sprint_7-solution-in-file-manager
+```
+## Добавляем новую ветку из гита на ГитХаб
+```
 git remote add origin git@github.com:OWNER/REPOSITORY.git
 ```
 ## Добавление удаленного репозитория через SSH 
